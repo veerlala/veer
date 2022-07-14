@@ -298,8 +298,8 @@ def name2():
 					pwv.append(frs+'786')
 					pwv.append(pakistan+'786')
 					pwv.append(pakistan+'123')
-					pwv.append('pakistan')
-					pwv.append('123456')
+					pwv.append(pakistan)
+					pwv.append(123456)
 			if 'mobile' in method:
 				pool.submit(crack,idf,pwv)
 			elif 'free' in method:
